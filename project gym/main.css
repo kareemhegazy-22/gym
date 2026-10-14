@@ -6,6 +6,10 @@
  
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #f7f6f0;
   color: #121212;
@@ -14,12 +18,6 @@ body {
 }
 
 
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 30px 0;
-}
 
 .logo-img {
   width: 75px;     
@@ -32,74 +30,6 @@ body {
   display: flex;
   align-items: center;
   gap: 12px;
-}
-
-.logo-text h2 {
-  font-size: 22px;
-  font-weight: 800;
-  letter-spacing: 1px;
-  line-height: 1;
-  color: #121212;
-}
-
-.logo-text span {
-  font-size: 8px;
-  letter-spacing: 1.5px;
-  color: #777;
-  font-weight: 700;
-  display: block;
-  margin-top: 3px;
-}
-
-.nav-links {
-  display: flex;
-  gap: 32px;
-  align-items: center;
-}
-
-.nav-links a {
-  text-decoration: none;
-  color: #555;
-  font-size: 15px;
-  font-weight: 600;
-  position: relative;
-  padding-bottom: 4px;
-  transition: color 0.3s;
-}
-
-
-.nav-links a.active {
-  color: #3b5a2b;
-}
-
-.nav-links a.active::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 2px;
-  background-color: #3b5a2b;
-  border-radius: 2px;
-}
-
-.nav-links a:hover {
-  color: #3b5a2b;
-}
-
-.join-btn {
-  background-color: #0f1c15;
-  color: #fff;
-  text-decoration: none;
-  padding: 12px 28px;
-  border-radius: 40px;
-  font-size: 14px;
-  font-weight: 700;
-  transition: background 0.3s;
-}
-
-.join-btn:hover {
-  background-color: #243d2c;
 }
 
 
@@ -251,19 +181,6 @@ body {
   margin-top: 8px;
   border-radius: 2px;
 }
-
-.view-all-btn {
-  color: #8bbf6f;
-  text-decoration: none;
-  font-size: 14px;
-  font-weight: 600;
-  transition: opacity 0.3s;
-}
-
-.view-all-btn:hover {
-  opacity: 0.8;
-}
-
 
 .programs-grid {
   display: grid;
